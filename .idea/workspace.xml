@@ -23,7 +23,6 @@
       <change afterPath="$PROJECT_DIR$/../../02.GAN/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../02.GAN/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04/GAN/DCGAN_ModelTraining.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/04/GAN/DCGAN_ModelTraining.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
