@@ -1,0 +1,18 @@
+# Ignore Image files
+04/04/lfw-deepfunneled/test/
+04/04/lfw-deepfunneled/train/
+
+# Ignore FashionMNIST files
+04/04/FashionMNIST/
+
+# Ignore Taco_and_burrtio files
+04/04/taco_and_burrito/
+
+# Ignore Image .tgz files
+04/04/lfw-deepfunneled.tgz
+
+# Ignore GAN-Image .tgz files
+04/04/102flowers.tgz
+
+# Ignore oxford-102 files.
+04/04/oxford-102/
