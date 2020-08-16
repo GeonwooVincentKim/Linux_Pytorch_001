@@ -1,0 +1,24 @@
+# Ignore Image files
+04/04/lfw-deepfunneled/test/
+04/04/lfw-deepfunneled/train/
+
+# Ignore FashionMNIST files
+04/04/FashionMNIST/
+
+# Ignore Taco_and_burrtio files
+04/04/taco_and_burrito/
+
+# Ignore Image .tgz files
+04/04/lfw-deepfunneled.tgz
+
+# Ignore GAN-Image .tgz files
+04/04/102flowers.tgz
+
+# Ignore aclimdb .tgz files
+05/05/aclImdb_v1.tar.gz
+
+# Ignore spa-eng .zip files
+05/05/spa-eng.zip
+
+# Ignore ml-20m files
+06/ml-20m/
