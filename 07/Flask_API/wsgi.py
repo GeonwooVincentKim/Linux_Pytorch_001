@@ -2,12 +2,13 @@
 import torch
 from smart_getenv import getenv
 
-from .app import create_app
-from .app.classifier import Classifier
+from Flask_API.app import create_app
+from Flask_API.app.classifier import Classifier
 
 # Read Parameter File-directory in the
 # Environment-Variable.
-prm_file = getenv("PRM_FILE", default="/taco_burrito.prm")
+prm_file = getenv("PRM_FILE", default="./taco_burrito.prm")
+print(prm_file)
 
 # Read Parameter-File.
 params = torch.load(
