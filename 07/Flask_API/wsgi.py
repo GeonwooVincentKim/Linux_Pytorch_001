@@ -2,8 +2,8 @@
 import torch
 from smart_getenv import getenv
 
-from Flask_API.app import create_app
-from Flask_API.app.classifier import Classifier
+from app import create_app
+from app.classifier import Classifier
 
 # Read Parameter File-directory in the
 # Environment-Variable.
@@ -17,7 +17,9 @@ params = torch.load(
     loc: storage
 )
 
-# Generate Classifier and Flask Application.
-classifier = Classifier(params)
-app = create_app(classifier)
+
+if __name__ == "__main__":
+    # Generate Classifier and Flask Application.
+    classifier = Classifier(params)
+    app = create_app(classifier)
 
