@@ -1,4 +1,4 @@
-FROM lucidfrontier45/pytorch
+FROM kkw/notebooks/01/07/
 
 RUN mkdir /FlaskAPI
 WORKDIR /FlaskAPI
