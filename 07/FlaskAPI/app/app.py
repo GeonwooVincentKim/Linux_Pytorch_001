@@ -32,3 +32,7 @@ def create_app(classifier):
 
     return app
 
+
+if __name__ == "__main__":
+    app = Flask(__name__)
+    create_app(app).run(debug=True)
