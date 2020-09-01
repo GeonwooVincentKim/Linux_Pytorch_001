@@ -23,4 +23,10 @@ RUN set -ex \
     && ./$INSTALLER -b -p /opt/conda3 \
     && rm $INSTALLER
 
+# Add Miniconda to the PATH
+ENV PATH /opt/conda3/bin:$PATH
+
+# Install Pytorch v1.0
+ENV PYTORCH_VERSION 1.0
+
 
